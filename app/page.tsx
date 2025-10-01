@@ -1,31 +1,32 @@
-import { Button } from '@/components/ui/button';
-import { Github, Linkedin } from 'lucide-react';
 import Link from 'next/link';
-import ContactForm from './components/contact-form';
-import ProjectCard from './components/project-card';
-import TechStack from './components/tech-stack';
-import Certificate from './components/certificate';
+import { Github, Linkedin } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import Project from '@/components/project';
+import Tech from '@/components/tech';
+import Certificate from '@/components/certificate';
 
 export default function Page() {
 	return (
 		<div className='min-h-screen bg-background'>
 			<header className='sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60'>
-				<div className='container mx-auto flex h-14 items-center'>
-					<div className='mr-4 hidden md:flex'>
-						<Link className='mr-6 flex items-center space-x-2' href='/'>
-							<span className='hidden font-bold sm:inline-block'>
-								glennfrancis.dev
-							</span>
-						</Link>
+				<div className='container mx-auto flex h-14 items-center px-3 md:px-6'>
+					<div className='mr-6 flex items-center space-x-2'>
+						<span className='hidden font-bold sm:inline-block'>
+							glennfrancis.dev
+						</span>
+						<span className='font-bold text-base sm:hidden'>GF.DEV</span>
 					</div>
-					<Link href='/' className='ml-auto'>
+
+					<div className='ml-auto'>
 						<Button variant='outline'>Resume</Button>
-					</Link>
+					</div>
 				</div>
 			</header>
 
 			<main className='container mx-auto px-4 md:px-6'>
-				<section id='about' className='py-12 md:py-24 lg:py-32'>
+				<section
+					id='about'
+					className='py-16 md:py-24 lg:py-32 lg:min-h-[50vh] flex items-center'>
 					<div className='container px-4 md:px-6'>
 						<div className='flex flex-col items-center justify-center space-y-4 text-center'>
 							<div className='space-y-2'>
@@ -37,20 +38,20 @@ export default function Page() {
 									on creating elegant solutions to complex problems.
 								</p>
 							</div>
-							<div className='space-x-4'>
+							<div className='space-x-4 flex items-center'>
 								<Link href='https://github.com/gmf001' target='_blank'>
-									<Button variant='outline' size='icon'>
-										<Github className='h-4 w-4' />
+									<div className='border p-4 rounded-lg'>
+										<Github className='h-5 w-5 lg:h-6 lg:w-6' />
 										<span className='sr-only'>GitHub</span>
-									</Button>
+									</div>
 								</Link>
 								<Link
 									href='https://www.linkedin.com/in/glenn-francis/'
 									target='_blank'>
-									<Button variant='outline' size='icon'>
-										<Linkedin className='h-4 w-4' />
+									<div className='border p-4 rounded-lg'>
+										<Linkedin className='h-5 w-5 lg:h-6 lg:w-6' />
 										<span className='sr-only'>LinkedIn</span>
-									</Button>
+									</div>
 								</Link>
 							</div>
 						</div>
@@ -58,27 +59,27 @@ export default function Page() {
 				</section>
 
 				{/* projects */}
-				<section id='projects' className='py-12 md:py-24 lg:py-32'>
+				<section id='projects' className='py-12 md:py-24'>
 					<div className='container px-4 md:px-6'>
-						<h2 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center'>
+						<h2 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6 md:mb-12 text-center'>
 							Projects
 						</h2>
-						<div className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'>
-							<ProjectCard
-								title='CoinWatch'
-								description='Track current cryptocurrency prices and details'
-								image='https://raw.githubusercontent.com/gmf001/glennfrancis.dev/refs/heads/master/src/images/coinwatch.webp'
-								link='https://github.com/gmf001/coin-watch'
-								tags={['Next.js', 'TailwindCSS', 'API']}
+						<div className='grid gap-6 lg:grid-cols-2 xl:grid-cols-3 w-full'>
+							<Project
+								title='Notes App'
+								description='A simple app to create, edit and delete notes'
+								image='/screenshot1.png'
+								link='https://github.com/gmf001/notes-app-mern'
+								tags={['node', 'express', 'mongodb', 'react', 'tailwindcss']}
 							/>
-							<ProjectCard
+							<Project
 								title='CoinConverter'
 								description='Convert cryptocurrency prices using the latest rates'
 								image='https://i.imgur.com/IBpqFNz.png'
 								link='https://github.com/gmf001/coin-converter'
 								tags={['Next.js', 'TailwindCSS', 'API']}
 							/>
-							<ProjectCard
+							<Project
 								title='DevFinder'
 								description='Github user profile viewer'
 								image='https://i.imgur.com/pMlhqoE.png'
@@ -90,9 +91,9 @@ export default function Page() {
 				</section>
 
 				{/* certificates */}
-				<section className='py-12 md:py-24 lg:py-32'>
+				<section className='py-12 md:py-24'>
 					<div className='container px-4 md:px-6'>
-						<h2 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center'>
+						<h2 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6 md:mb-12 text-center'>
 							Certifications
 						</h2>
 						<div className='grid gap-6 md:grid-cols-2 lg:grid-cols-3'>
@@ -126,28 +127,17 @@ export default function Page() {
 				</section>
 
 				{/* tech stack */}
-				<section className='py-12 md:py-24 lg:py-32'>
+				<section className='py-12 md:py-24'>
 					<div className='container px-4 md:px-6'>
-						<h2 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center'>
+						<h2 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-6 md:mb-12 text-center'>
 							Tech Stack
 						</h2>
-						<TechStack />
-					</div>
-				</section>
-
-				<section id='contact' className='py-12 md:py-24 lg:py-32'>
-					<div className='container px-4 md:px-6'>
-						<div className='mx-auto max-w-2xl'>
-							<h2 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center'>
-								Get in Touch
-							</h2>
-							<ContactForm />
-						</div>
+						<Tech />
 					</div>
 				</section>
 			</main>
 
-			<footer className='border-t'>
+			<footer className='border-t mt-4 lg:mt-8 xl:mt-12'>
 				<div className='container mx-auto flex flex-col justify-center gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6'>
 					<p className='text-xs text-gray-500 text-center dark:text-gray-400'>
 						© 2025 glennfrancis.dev

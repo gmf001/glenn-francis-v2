@@ -1,5 +1,3 @@
 # Glenn Francis
 
-### Software Engineer
-
-- Portfolio showcasing my projects and skills
+My portfolio showcasing my projects and skills, built with Next.js and Tailwind CSS.
