@@ -66,25 +66,46 @@ export default function Page() {
 						</h2>
 						<div className='grid gap-6 lg:grid-cols-2 xl:grid-cols-3 w-full'>
 							<Project
-								title='Notes App'
-								description='A simple app to create, edit and delete notes'
+								title='Notes'
+								description='A simple note taking app'
 								image='/screenshot1.png'
 								link='https://github.com/gmf001/notes-app-mern'
 								tags={['node', 'express', 'mongodb', 'react', 'tailwindcss']}
 							/>
 							<Project
-								title='CoinConverter'
-								description='Convert cryptocurrency prices using the latest rates'
-								image='https://i.imgur.com/IBpqFNz.png'
-								link='https://github.com/gmf001/coin-converter'
-								tags={['Next.js', 'TailwindCSS', 'API']}
+								title='Threadly'
+								description='A social media app (threads clone)'
+								image='https://placehold.co/600x400'
+								link=''
+								tags={['next', 'prisma', 'postgres', 'tailwindcss', 'auth']}
 							/>
 							<Project
-								title='DevFinder'
-								description='Github user profile viewer'
-								image='https://i.imgur.com/pMlhqoE.png'
-								link='https://github.com/gmf001/dev-finder'
-								tags={['Next.js', 'TailwindCSS', 'API']}
+								title='AnonBox'
+								description='Anonymous message board (ngl.link clone)'
+								image='https://placehold.co/600x400'
+								link=''
+								tags={['nuxt', 'prisma', 'postgres', 'tailwindcss', 'auth']}
+							/>
+							<Project
+								title='Linkly'
+								description='A link management tool (linktree clone)'
+								image='https://placehold.co/600x400'
+								link=''
+								tags={['react', '.NET', 'tailwindcss', 'auth']}
+							/>
+							<Project
+								title='Vaultly'
+								description='A password management tool (bitwarden clone)'
+								image='https://placehold.co/600x400'
+								link=''
+								tags={['vue', 'go', 'tailwindcss', 'auth']}
+							/>
+							<Project
+								title='Votely'
+								description='A poll creation tool (strawpoll clone)'
+								image='https://placehold.co/600x400'
+								link=''
+								tags={['django', 'postgres', 'auth']}
 							/>
 						</div>
 					</div>
