@@ -94,8 +94,8 @@ export default function Page() {
 								tags={['react', '.NET', 'tailwindcss', 'auth']}
 							/>
 							<Project
-								title='Vaultly'
-								description='A password management tool (bitwarden clone)'
+								title='SaveIt'
+								description='A bookmark management tool (raindrop clone)'
 								image='https://placehold.co/600x400'
 								link=''
 								tags={['vue', 'go', 'tailwindcss', 'auth']}
