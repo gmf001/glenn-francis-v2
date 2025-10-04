@@ -95,10 +95,10 @@ export default function Page() {
 							/>
 							<Project
 								title='SaveIt'
-								description='A bookmark management tool (raindrop clone)'
-								image='https://placehold.co/600x400'
+								description='A bookmark management tool'
+								image='/screenshot2.png'
 								link=''
-								tags={['vue', 'go', 'tailwindcss', 'auth']}
+								tags={['vue', 'go', 'mongodb', 'tailwindcss', 'auth']}
 							/>
 							<Project
 								title='Votely'
