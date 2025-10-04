@@ -103,7 +103,7 @@ export default function Page() {
 							<Project
 								title='Votely'
 								description='A poll creation tool (strawpoll clone)'
-								image='https://placehold.co/600x400'
+								image='/screenshot3.png'
 								link=''
 								tags={['django', 'postgres', 'auth']}
 							/>
