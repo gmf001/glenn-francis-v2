@@ -75,7 +75,7 @@ export default function Page() {
 							<Project
 								title='Threadly'
 								description='A social media app (threads clone)'
-								image='https://placehold.co/600x400'
+								image='/screenshot5.png'
 								link=''
 								tags={['next', 'prisma', 'postgres', 'tailwindcss', 'auth']}
 							/>
