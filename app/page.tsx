@@ -89,7 +89,7 @@ export default function Page() {
 							<Project
 								title='Linkly'
 								description='A link management tool (linktree clone)'
-								image='https://placehold.co/600x400'
+								image='/screenshot6.png'
 								link=''
 								tags={['react', '.NET', 'tailwindcss', 'auth']}
 							/>
