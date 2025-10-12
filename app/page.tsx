@@ -67,28 +67,28 @@ export default function Page() {
 						<div className='grid gap-6 lg:grid-cols-2 xl:grid-cols-3 w-full'>
 							<Project
 								title='Notes'
-								description='A simple note taking app'
+								description='A note taking app'
 								image='/screenshot1.png'
 								link='https://github.com/gmf001/notes-app-mern'
 								tags={['node', 'express', 'mongodb', 'react', 'tailwindcss']}
 							/>
 							<Project
-								title='Threadly'
-								description='A social media app (threads clone)'
+								title='CommitChat'
+								description='A developer focused social media app'
 								image='/screenshot5.png'
 								link=''
 								tags={['next', 'prisma', 'postgres', 'tailwindcss', 'auth']}
 							/>
 							<Project
 								title='AnonBox'
-								description='Anonymous message board (ngl.link clone)'
+								description='Anonymous message board'
 								image='/screenshot4.png'
 								link=''
 								tags={['nuxt', 'prisma', 'postgres', 'tailwindcss', 'auth']}
 							/>
 							<Project
 								title='Linkly'
-								description='A link management tool (linktree clone)'
+								description='A link management tool'
 								image='/screenshot6.png'
 								link=''
 								tags={['react', '.NET', 'tailwindcss', 'auth']}
@@ -102,10 +102,10 @@ export default function Page() {
 							/>
 							<Project
 								title='Votely'
-								description='A poll creation tool (strawpoll clone)'
+								description='A poll creation tool'
 								image='/screenshot3.png'
 								link=''
-								tags={['django', 'postgres', 'auth']}
+								tags={['python', 'django', 'postgres', 'auth']}
 							/>
 						</div>
 					</div>
