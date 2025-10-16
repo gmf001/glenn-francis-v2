@@ -96,7 +96,7 @@ export default function Page() {
 							<Project
 								title='SaveIt'
 								description='A bookmark management tool'
-								image='/screenshot2.png'
+								image='/save-it.png'
 								link=''
 								tags={['vue', 'go', 'mongodb', 'tailwindcss', 'auth']}
 							/>
