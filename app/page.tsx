@@ -103,7 +103,7 @@ export default function Page() {
 							<Project
 								title='Votely'
 								description='A poll creation tool'
-								image='/screenshot3.png'
+								image='/votely.png'
 								link='https://github.com/gmf001'
 								tags={['python', 'django', 'postgres', 'auth']}
 							/>
