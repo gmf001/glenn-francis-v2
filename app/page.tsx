@@ -82,7 +82,7 @@ export default function Page() {
 							<Project
 								title='AnonBox'
 								description='Anonymous message board'
-								image='/screenshot4.png'
+								image='/anonbox.png'
 								link='https://github.com/gmf001'
 								tags={['nuxt', 'prisma', 'postgres', 'tailwindcss', 'auth']}
 							/>
