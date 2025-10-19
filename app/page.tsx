@@ -69,42 +69,42 @@ export default function Page() {
 								title='DevNote'
 								description='A developer focused note taking app'
 								image='/devnote.png'
-								link='https://github.com/gmf001'
+								link='https://github.com/gmf001/dev-notes'
 								tags={['node', 'express', 'mongodb', 'react', 'tailwindcss']}
 							/>
 							<Project
 								title='CommitChat'
 								description='A developer focused social media app'
 								image='/screenshot5.png'
-								link='https://github.com/gmf001'
+								link='https://github.com/gmf001/commit-chat'
 								tags={['next', 'prisma', 'postgres', 'tailwindcss', 'auth']}
 							/>
 							<Project
 								title='AnonBox'
 								description='Anonymous message board'
 								image='/anonbox.png'
-								link='https://github.com/gmf001'
+								link='https://github.com/gmf001/anonbox'
 								tags={['nuxt', 'prisma', 'postgres', 'tailwindcss', 'auth']}
 							/>
 							<Project
 								title='Linkly'
 								description='A link management tool'
 								image='/screenshot6.png'
-								link='https://github.com/gmf001'
+								link='https://github.com/gmf001/linkly'
 								tags={['react', '.NET', 'tailwindcss', 'auth']}
 							/>
 							<Project
 								title='SaveIt'
 								description='A bookmark management tool'
 								image='/save-it.png'
-								link='https://github.com/gmf001'
+								link='https://github.com/gmf001/save-it'
 								tags={['vue', 'go', 'mongodb', 'tailwindcss', 'auth']}
 							/>
 							<Project
 								title='Votely'
 								description='A poll creation tool'
 								image='/votely.png'
-								link='https://github.com/gmf001'
+								link='https://github.com/gmf001/votely'
 								tags={['python', 'django', 'postgres', 'auth']}
 							/>
 						</div>
