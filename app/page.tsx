@@ -66,6 +66,13 @@ export default function Page() {
 						</h2>
 						<div className='grid gap-6 lg:grid-cols-2 xl:grid-cols-3 w-full'>
 							<Project
+								title='SaveIt'
+								description='A bookmark management tool'
+								image='/save-it.png'
+								link='https://github.com/gmf001/save-it'
+								tags={['vue', 'go', 'mongodb', 'tailwindcss', 'auth']}
+							/>
+							<Project
 								title='DevNote'
 								description='A developer focused note taking app'
 								image='/devnote.png'
@@ -92,14 +99,7 @@ export default function Page() {
 								image='/screenshot6.png'
 								link='https://github.com/gmf001/linkly'
 								tags={['react', '.NET', 'tailwindcss', 'auth']}
-							/>
-							<Project
-								title='SaveIt'
-								description='A bookmark management tool'
-								image='/save-it.png'
-								link='https://github.com/gmf001/save-it'
-								tags={['vue', 'go', 'mongodb', 'tailwindcss', 'auth']}
-							/>
+							/>		
 							<Project
 								title='Votely'
 								description='A poll creation tool'
