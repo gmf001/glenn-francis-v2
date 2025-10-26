@@ -68,7 +68,7 @@ export default function Page() {
 							<Project
 								title='SaveIt'
 								description='A bookmark management tool'
-								image='/saveit.png'
+								image='/save-it.png'
 								link='https://github.com/gmf001/save-it'
 								tags={['vue', 'go', 'mongodb', 'tailwindcss', 'auth']}
 							/>
