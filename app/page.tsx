@@ -68,21 +68,21 @@ export default function Page() {
 							<Project
 								title='SaveIt'
 								description='A bookmark management tool'
-								image='/save-it.png'
+								image='/1.png'
 								link='https://github.com/gmf001/save-it'
 								tags={['vue', 'go', 'mongodb', 'tailwindcss', 'auth']}
 							/>
 							<Project
 								title='DevNote'
 								description='A developer focused note taking app'
-								image='/devnote.png'
+								image='/2.png'
 								link='https://github.com/gmf001/dev-notes'
 								tags={['node', 'express', 'mongodb', 'react', 'tailwindcss']}
 							/>
 							<Project
 								title='CommitChat'
 								description='A developer focused social media app'
-								image='/screenshot5.png'
+								image='/3.png'
 								link='https://github.com/gmf001/commit-chat'
 								tags={['next', 'prisma', 'postgres', 'tailwindcss', 'auth']}
 							/>
