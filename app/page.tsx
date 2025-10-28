@@ -89,21 +89,21 @@ export default function Page() {
 							<Project
 								title='AnonBox'
 								description='Anonymous message board'
-								image='/anonbox.png'
+								image='/4.png'
 								link='https://github.com/gmf001/anonbox'
 								tags={['nuxt', 'prisma', 'postgres', 'tailwindcss', 'auth']}
 							/>
 							<Project
 								title='Linkly'
 								description='A link management tool'
-								image='/screenshot6.png'
+								image='/5.png'
 								link='https://github.com/gmf001/linkly'
 								tags={['react', '.NET', 'tailwindcss', 'auth']}
 							/>		
 							<Project
 								title='Votely'
 								description='A poll creation tool'
-								image='/votely.png'
+								image='/6.png'
 								link='https://github.com/gmf001/votely'
 								tags={['python', 'django', 'postgres', 'auth']}
 							/>
