@@ -70,42 +70,42 @@ export default function Page() {
 								description='A bookmark management tool'
 								image='/1.png'
 								link='https://github.com/gmf001/save-it'
-								tags={['vue', 'go', 'mongodb', 'tailwindcss', 'auth']}
+								tags={['vue', 'go', 'mongodb', 'tailwind', 'clerk']}
 							/>
 							<Project
 								title='DevNote'
 								description='A developer focused note taking app'
 								image='/2.png'
 								link='https://github.com/gmf001/dev-notes'
-								tags={['node', 'express', 'mongodb', 'react', 'tailwindcss']}
+								tags={['node', 'express', 'mongodb', 'react', 'tailwind', 'better-auth']}
 							/>
 							<Project
 								title='CommitChat'
 								description='A developer focused social media app'
 								image='/3.png'
 								link='https://github.com/gmf001/commit-chat'
-								tags={['next', 'prisma', 'postgres', 'tailwindcss', 'auth']}
+								tags={['next', 'prisma', 'postgres', 'tailwind', 'better-auth']}
 							/>
 							<Project
 								title='AnonBox'
 								description='Anonymous message board'
 								image='/4.png'
 								link='https://github.com/gmf001/anonbox'
-								tags={['nuxt', 'prisma', 'postgres', 'tailwindcss', 'auth']}
+								tags={['nuxt', 'prisma', 'postgres', 'tailwind', 'supabase']}
 							/>
 							<Project
 								title='Linkly'
 								description='A link management tool'
 								image='/5.png'
 								link='https://github.com/gmf001/linkly'
-								tags={['react', '.NET', 'tailwindcss', 'auth']}
+								tags={['react', '.NET', 'postgres', 'tailwind', 'clerk']}
 							/>		
 							<Project
 								title='Votely'
 								description='A poll creation tool'
 								image='/6.png'
 								link='https://github.com/gmf001/votely'
-								tags={['python', 'django', 'postgres', 'auth']}
+								tags={['next', 'django', 'postgres', 'tailwind', 'clerk']}
 							/>
 						</div>
 					</div>
